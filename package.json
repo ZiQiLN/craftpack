@@ -1,0 +1,9 @@
+{
+  "name": "@araclx/buildkit",
+  "version": "0.0.1",
+  "description": "Zero-configuration toolkit for compiling TypeScript code made by Araclx.",
+  "main": "index.js",
+  "repository": "https://github.com/ARACLX/buildkit.git",
+  "author": "Jakub Olan <jakub.olan001@gmail.com>",
+  "license": "MIT"
+}
