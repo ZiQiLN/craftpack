@@ -1,9 +1,14 @@
 # @aralcx/buildkit
 
-`Buildkit` is currently project in icebox of Araclx, that will be a bundler for TypeScript code, that will implement a few features contained in webpack, but additionally it will work with back-end node code.
+## Motivation
 
-We're just planning a work on that, meanwhile dive into popular alternatives like:
+- Compile whole project by running running one command.
+- Avoid wasting time on configuring bundle tools like `webpack`
 
-- Native usage of `tsc`
-- Webpack
-- Rollup
+## Requirements
+
+- [ ] Zero Configuration / Minimal Configuration File
+- [ ] Build-in TypeScript
+- [ ] Support for all Node.js packages
+- [ ] Compiling project to binary file
+- [ ] Development Utilities (such as watch mode)
