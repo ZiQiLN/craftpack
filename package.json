@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/ARACLX/buildkit.git",
   "author": "Jakub Olan <jakub.olan001@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "signale": "^1.4.0"
+  }
 }
