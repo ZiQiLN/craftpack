@@ -1,12 +1,16 @@
 {
   "name": "craftpack",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Collection of different webpack/rollup configurations to make life easier and don't configure them for every single project.",
   "main": "lib/index.js",
   "repository": "https://github.com/ziqiln/craftpack.git",
   "author": "Jakub Olan <jakub.olan001@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "rel": "yarn publish --no-git-tag-version --patch"
+  },
   "dependencies": {
+    "friendly-errors-webpack-plugin": "^1.7.0",
     "source-map": "^0.7.3",
     "ts-loader": "^8.0.2",
     "webpack": "^4.44.1",
