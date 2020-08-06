@@ -8,11 +8,13 @@ yarn add webpack craftpack
 
 ```js
 const configure = require("craftpack");
+const path = require("path");
 
 module.exports = configure({
-  entry: {
-    app: "./src/index.js"
-  }
-  // Other Overrides
+  output: {
+    filename: "bundle.js",
+    path: path.join(__dirname, "dist")
+  },
+  entry: path.join(__dirname, "src", "index.ts")
 });
 ```
