@@ -2,9 +2,15 @@
   "name": "craftpack",
   "version": "0.0.0",
   "description": "Collection of different webpack/rollup configurations to make life easier and don't configure them for every single project.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/ziqiln/craftpack.git",
   "author": "Jakub Olan <jakub.olan001@gmail.com>",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "source-map": "^0.7.3",
+    "ts-loader": "^8.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^2.5.0"
+  }
 }
