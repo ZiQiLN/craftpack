@@ -1,6 +1,6 @@
 {
   "name": "craftpack",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Collection of different webpack/rollup configurations to make life easier and don't configure them for every single project.",
   "main": "lib/index.js",
   "repository": "https://github.com/ziqiln/craftpack.git",
@@ -12,6 +12,8 @@
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-merge": "^5.1.1",
-    "webpack-node-externals": "^2.5.0"
-  }
+    "webpack-node-externals": "^2.5.0",
+    "webpackbar": "^4.0.0"
+  },
+  "devDependencies": {}
 }
