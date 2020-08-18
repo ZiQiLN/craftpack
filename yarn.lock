@@ -2,16 +2,18 @@
 # yarn lockfile v1
 
 
-"@araclx/husky-config@^0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@araclx/husky-config/-/husky-config-0.0.12.tgz#caf90bfdc861a80b968ec4374eb73a1b7c3471f1"
-  integrity sha512-6jMv4hTxbp6W6lCUOEOmj+Zz8NR0wReRZawub4UGWhea++6gjEbN1s1i09UeqK3galh3GArCVT/TWYXdU6IuHg==
+"@araclx/husky-config@^0.0.13":
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/@araclx/husky-config/-/husky-config-0.0.13.tgz#5a41178ca22f09af7846485ecb2337b9e79545c7"
+  integrity sha512-ZRtGzzLvPquvWbfda9M3AKTBzd2smhDXUJjfOlAtN0brhEcJhluzm++W1thAjrvxUGAAhPfWo3uJeYAK1ltSWg==
   dependencies:
+    "@araclx/xo-config" "^0.0.1"
     "@commitlint/cli" "^9.1.1"
     "@commitlint/config-conventional" "^9.1.1"
     eslint "^7.5.0"
     husky "^4.2.5"
     precise-commits "^1.0.2"
+    xo "^0.32.1"
 
 "@araclx/prettier-config@^0.0.11":
   version "0.0.11"
@@ -33,10 +35,10 @@
     "@semantic-release/release-notes-generator" "^9.0.1"
     commitizen "^4.1.2"
 
-"@araclx/xo-config@^0.0.1-alpha.0":
-  version "0.0.1-alpha.0"
-  resolved "https://registry.yarnpkg.com/@araclx/xo-config/-/xo-config-0.0.1-alpha.0.tgz#0c6a4b0f27c798a7c7db030b03473241d2b0024a"
-  integrity sha512-SWDLUcNFO4X2JVYSOL5ghRKIYJaWp6FJDthc5E+sgBYksdEPHsnX8Oc9D2EICjslbgiVLieevBdghe0l6JqSnw==
+"@araclx/xo-config@^0.0.1", "@araclx/xo-config@^0.0.1-alpha.0":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@araclx/xo-config/-/xo-config-0.0.1.tgz#97af113cb98dba0117fed380373656a0dc078a7e"
+  integrity sha512-xkzVp539/3t7fZ5MRCuk97CiY4G0kA9nT/YrbsbNaI097OzgKzrvxlwKcHDAmO9a0sctmwwI62/cBDIBhkeWaA==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4":
   version "7.10.4"
@@ -882,17 +884,7 @@ ajv-keywords@^3.1.0, ajv-keywords@^3.4.1:
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-3.5.2.tgz#31f29da5ab6e00d1c2d329acf7b5929614d5014d"
   integrity sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==
 
-ajv@^6.1.0, ajv@^6.10.2:
-  version "6.12.3"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.3.tgz#18c5af38a111ddeb4f2697bd78d68abc1cabd706"
-  integrity sha512-4K0cK3L1hsqk9xIb2z9vs/XU+PGJZ9PNpJRDS9YLzmNdX6jmVPfamLvTJr0aDAusnHyCHO6MjzlkAsgtqp9teA==
-  dependencies:
-    fast-deep-equal "^3.1.1"
-    fast-json-stable-stringify "^2.0.0"
-    json-schema-traverse "^0.4.1"
-    uri-js "^4.2.2"
-
-ajv@^6.10.0, ajv@^6.12.3:
+ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.3:
   version "6.12.4"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.4.tgz#0614facc4522127fa713445c6bfd3ebd376e2234"
   integrity sha512-eienB2c9qVQs2KWexhkrdMLVDoIQCz5KSeLxwg9Lzk4DOfBtIK9PQwwufcsn1jjGuf9WZmqPMbGxOzfcuphJCQ==
