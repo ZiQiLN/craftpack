@@ -19,5 +19,15 @@
     "webpack-node-externals": "^2.5.0",
     "webpackbar": "^4.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@araclx/husky-config": "^0.0.12",
+    "@araclx/prettier-config": "^0.0.11",
+    "@araclx/semantic-release": "^0.1.6-alpha.0",
+    "@araclx/xo-config": "^0.0.1-alpha.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "semantic-release": "^17.1.1",
+    "xo": "^0.32.1"
+  }
 }
