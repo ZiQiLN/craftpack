@@ -1,6 +1,6 @@
 {
   "name": "craftpack",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Collection of different webpack/rollup configurations to make life easier and don't configure them for every single project.",
   "main": "lib/index.js",
   "repository": "https://github.com/ziqiln/craftpack.git",
