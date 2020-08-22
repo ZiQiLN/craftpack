@@ -1,6 +1,6 @@
 {
   "name": "craftpack",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Collection of different webpack/rollup configurations to make life easier and don't configure them for every single project.",
   "main": "lib/index.js",
   "repository": "https://github.com/ziqiln/craftpack.git",
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "friendly-errors-webpack-plugin": "^1.7.0",
+    "nodemon-webpack-plugin": "^4.3.2",
     "source-map": "^0.7.3",
     "ts-loader": "^8.0.2",
     "tsconfig-paths-webpack-plugin": "^3.3.0",
