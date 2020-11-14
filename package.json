@@ -22,14 +22,14 @@
     "webpackbar": "^4.0.0"
   },
   "devDependencies": {
-    "@araclx/husky-config": "^0.0.13",
-    "@araclx/prettier-config": "^0.0.12",
+    "@araclx/husky-config": "^0.0.14",
+    "@araclx/prettier-config": "^0.0.13",
     "@araclx/semantic-release": "^0.1.6-alpha.0",
-    "@araclx/xo-config": "^0.0.2",
+    "@araclx/xo-config": "^0.0.3",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
     "prettier": "^2.1.1",
     "semantic-release": "^17.1.1",
-    "xo": "^0.33.0"
+    "xo": "^0.33.1"
   }
 }
